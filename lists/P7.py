@@ -4,12 +4,10 @@ count = 1
 
 for i in range(len(list7)):
     a = list7[i]
-    for j in range(2, len(list7)):
+    count = 1
+    for j in range(i+1, len(list7)):
         if a == list7[j]:
             count += 1
-            print(a, " -> ", count)
+    print(a, " -> ", count)
 
-for i in range(len(list7)):
-    a = list7[i]
-    
         
